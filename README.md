@@ -2,7 +2,7 @@
 
 A responsive and dynamic Netflix-style web interface built from scratch using **React** and **Vite**. This project focuses on modern frontend layout practices, state-driven UI changes, and responsive CSS styling.
 
-🚀 **[Live Demo Link](https://your-vercel-deployment-link.vercel.app)** *(Replace this with your actual Vercel link once deployed!)*
+🚀 **[Live Demo Link] https://netflix-clone-uii.vercel.app/
 
 ---
 
