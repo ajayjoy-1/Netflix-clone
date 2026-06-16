@@ -1,0 +1,68 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  /* CHANGE: Initial background is now white */
+  background-color: white; 
+}
+
+.nav__black {
+  /* Keeps the scroll-to-black effect */
+  background-color: #111;
+}
+
+.nav__left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav__logo {
+  color: #e50914; /* Red logo still looks great on white */
+  font-size: 1.8rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.nav__links {
+  display: flex; 
+  gap: 10px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  /* CHANGE: Initial text color is dark gray so it's visible on white */
+  color: #333; 
+  font-weight: 600;
+  transition: color 0.5s;
+}
+
+/* CHANGE: When the navbar turns black, change the text back to white */
+.nav__black .nav__links {
+  color: white;
+}
+
+/* Hover effect for the links */
+.nav__links span:hover {
+  color: #e50914; /* Changed hover to red to pop against the white */
+}
+
+.nav__avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .nav__links {
+    gap: 20px;
+    font-size: 0.9rem;
+  }
+}
