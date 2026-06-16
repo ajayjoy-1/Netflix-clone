@@ -9,7 +9,7 @@ const generateMovies = (categorySeed) => {
 
 export const categories = [
   { title: "Trending Now", movies: generateMovies("trend") },
-  { title: "Top Rated", movies: generateMovies("top") },
+  { title: "Top Rated", movies: generateMovies("tp") },
   { title: "Action Movies", movies: generateMovies("action") },
   { title: "Comedy Movies", movies: generateMovies("comedy") },
 ];
